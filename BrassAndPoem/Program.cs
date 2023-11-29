@@ -72,10 +72,13 @@ List<Product> products = new List<Product>()
 
 Console.WriteLine(@"Welcome to Brass & Poem! 
                     For all your poetry books and brass musical instrument needs.");
+                    DisplayMenu();
 
 
 //implement your loop 
 
+void DisplayMenu()
+{
 string choice = null;
 while (choice != "5")
 {
@@ -152,10 +155,8 @@ while (choice != "5")
 }
 
 
-// void DisplayMenu()
-// {
-//     throw new NotImplementedException();
-// }
+    
+}
 
 
 
